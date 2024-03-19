@@ -14,5 +14,6 @@ format:
     theme: Journal
     css: styles.css
 
-
+execute:
+  freeze: auto
 
