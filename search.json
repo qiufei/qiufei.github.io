@@ -2,7 +2,7 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "第一篇博客",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "糖不卷",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 16, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "可执行的代码\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 19, 2024\n\n\nqiufei\n\n\n\n\n\n\n\n\n\n\n\n\n第一篇博客\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 16, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -23,8 +23,22 @@
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "title": "可执行的代码",
     "section": "",
     "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#python",
+    "href": "posts/post-with-code/index.html#python",
+    "title": "可执行的代码",
+    "section": "python",
+    "text": "python\n\nprint(\"Hello, World!\")\n\nHello, World!"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#r-语言",
+    "href": "posts/post-with-code/index.html#r-语言",
+    "title": "可执行的代码",
+    "section": "R 语言",
+    "text": "R 语言\n\nprint(\"Hello, World!\")\n\n[1] \"Hello, World!\""
   }
 ]
