@@ -1,9 +1,20 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "可执行的代码"
+author: "qiufei"
 date: "2024-03-19"
 categories: [news, code, analysis]
 image: "image.jpg"
 ---
 
 This is a post with executable code.
+
+## python
+```{python}
+print("Hello, World!")
+```
+
+## R 语言
+
+```{r}
+print("Hello, World!")
+```

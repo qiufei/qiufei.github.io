@@ -11,7 +11,7 @@ website:
      
 format:
   html:
-    theme: journal
+    theme: Journal
     css: styles.css
 
 

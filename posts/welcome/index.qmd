@@ -1,6 +1,6 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+title: "第一篇博客"
+#author: "qiufe"
 date: "2024-03-16"
 categories: [news]
 ---
