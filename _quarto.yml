@@ -8,6 +8,10 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/
+  page-footer:
+    center: 
+      - text: " &copy; 邱飞   浙ICP备2024072710号-1"
+        href: "https://beian.miit.gov.cn"
      
 format:
   html:
@@ -16,4 +20,3 @@ format:
 
 execute:
   freeze: auto
-
