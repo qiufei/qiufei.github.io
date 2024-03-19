@@ -2,6 +2,7 @@
 title: "It Is Sheer Good Fortune To Miss Somebody Long Before They Leave You"
 date: "2008-03-24"
 categories:
+image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/leeland.jpg
 ---
 
 

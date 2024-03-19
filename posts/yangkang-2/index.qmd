@@ -2,6 +2,7 @@
 title: "杨康三部曲（二）：青龙镇记事"
 date: '2009-08-01'
 categories:
+image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/y25.png
 ---
 
 
