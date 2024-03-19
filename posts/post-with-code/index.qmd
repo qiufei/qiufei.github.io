@@ -1,6 +1,6 @@
 ---
 title: "可执行的代码"
-author: "qiufei"
+#author: "qiufei"
 date: "2024-03-19"
 categories: [news, code, analysis]
 image: "image.jpg"

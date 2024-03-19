@@ -9,9 +9,16 @@ website:
       - icon: github
         href: https://github.com/
   page-footer:
+    left: |
+      Supported by
+      [![](https://www.rstudio.com/assets/img/posit-logo-fullcolor-TM.svg){fig-alt="Posit" width=65px}](https://posit.co)
     center: 
-      - text: " &copy; 邱飞   浙ICP备2024072710号-1"
+      - text: " &copy; 2024 邱飞  &nbsp; 浙ICP备2024072710号-1"
         href: "https://beian.miit.gov.cn"
+    right:
+      - icon: github
+        href: https://github.com/qiufei/qiufei.github.io
+        aria-label: Quarto GitHub
      
 format:
   html:
