@@ -1,9 +1,9 @@
 ---
-title: "可执行的代码"
+title: "test 数据"
 #author: "qiufei"
 date: "2024-03-19"
-categories: [news, code, analysis]
-image: "image.jpg"
+categories: [R,Python, 数据分析]
+image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/image.jpg # 这是指定整篇文章的主题图片
 ---
 
 This is a post with executable code.
