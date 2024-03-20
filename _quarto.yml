@@ -13,7 +13,10 @@ website:
       Powered By
       [![](https://www.rstudio.com/assets/img/posit-logo-fullcolor-TM.svg){fig-alt="Posit" width=65px}](https://posit.co)
     center: 
-      - text: " &copy; 2024 邱飞  &nbsp; 浙ICP备2024072710号-1"
+      - text: "邱飞"
+        href: mailto:hfutqiufei@163.com
+      - text: "&copy; 2008-2024"
+      - text: "浙ICP备2024072710号-1"
         href: "https://beian.miit.gov.cn"
     right:
       - icon: github
