@@ -7,7 +7,10 @@ about:
     - icon: github
       text: Github
       href: https://github.com/qiufei
-
+    - icon: envelope
+      text: Email
+      href: mailto:hfutqiufei@163.com
+email-obfuscation: javascript
 ---
 
 这是我的个人博客，用于分享一些数据分析文章和生活感悟。
