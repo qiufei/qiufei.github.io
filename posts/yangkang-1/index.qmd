@@ -2,7 +2,7 @@
 title: "杨康三部曲（一）：中国武士隐默的历史"
 date: '2008-12-19'
 categories:
-image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/y11.jpg
+image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/y16.jpg
 ---
 
 ## 杨康
