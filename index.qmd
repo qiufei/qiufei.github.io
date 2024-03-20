@@ -4,22 +4,21 @@ image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/profile.jpg
 about:
   template: jolla
   links:
-    
-    - icon: envelope
-      text: Email
-      href: mailto:hfutqiufei@163.com
     - icon: fab fa-weibo
       text: 微博
       href: https://m.weibo.cn/profile/1651226607
+    - icon: envelope
+      text: Email
+      href: mailto:hfutqiufei@163.com
     - icon: origin:知
       text: 知乎
       href: https://www.zhihu.com/people/cionysus
     # - icon: github
     #   text: Github
     #   href: https://github.com/qiufei
-    - icon: fab fa-weixin
-      text: 微信
-      href: weixin://addfriend/cionysus
+    # - icon: fab fa-weixin
+    #   text: 微信
+    #   href: weixin:cionysus
 email-obfuscation: javascript
 ---
 
