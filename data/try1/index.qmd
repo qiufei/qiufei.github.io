@@ -1,0 +1,23 @@
+---
+title: "乐在其中"
+date: '2017-02-11'
+categories:
+---
+
+
+昨晚看《The Universe in Zero Words: The Story of Mathematics as Told through Equations》这本书看到凌晨。
+
+其中有句话特别赞同：
+
+> it is a good thing that Hilbert's vision turned out to be flawed, because he was proposing to rescue mathematics by killing it. If mathematics loses its content, then it also (I believe) loses most of its beauty. If mathematicians truly believed that they were doing nothing but pushing symbols around, I think that many of them would want to find another way of passing the time.
+
+看到这段想起我之前写的一篇博客，当时我就认为，人类通过信仰绝对的对象来获得拯救的做法，实际上是在扼杀人类。
+
+如果一切给定，在此基础上在去过自己的人生，人生也就失去了活力和意义，这是一种窒息的人类。类似这里所说的rescue mathematics by killing it。
+
+过程比结果重要，生活是参与，幸福不是确定机制下的绝对操控，而是乐在参与的过程中。
+
+
+------
+
+顺便说下，上面那本书对哥德尔不可能定理的证明思路做了通俗易懂的解释。

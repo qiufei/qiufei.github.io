@@ -1,14 +1,20 @@
 ---
 title: "糖不卷"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/qiufei
+    - icon: envelope
+      text: Email
+      href: mailto:hfutqiufei@163.com
+email-obfuscation: javascript
 ---
+
+我是邱飞，这是我的个人网站，用于分享一些数据分析文章和生活感悟。
+
+
 
 
