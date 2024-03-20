@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>QF - 糖不卷</title>
+<title>QF - 生活</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,9 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -65,15 +68,73 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -88,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./life.html"> 
+    <a class="nav-link active" href="./life.html" aria-current="page"> 
 <span class="menu-text">生活</span></a>
   </li>  
   <li class="nav-item">
@@ -112,38 +173,319 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">生活</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla content">
-  <img src="https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/profile.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">糖不卷</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
-<p>我是邱飞，这是我的个人网站，用于分享一些数据分析文章和生活感悟。</p>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/qiufei" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="mailto:hfutqiufei@163.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="R,Python,数据分析" data-listing-date-sort="1710777600000" data-listing-file-modified-sort="1710897649714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="thumbnail">
+<p><a href="./life/post-with-code/index.html" class="no-external"></a></p><a href="./life/post-with-code/index.html" class="no-external">
+<p><img src="https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./life/post-with-code/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/post-with-code/index.html" class="no-external">test 数据</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/post-with-code/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/post-with-code/index.html" class="no-external">This is a post with executable code.</a>
 </div>
 </div>
- <!-- /main -->
+<div class="metadata">
+<a href="./life/post-with-code/index.html" class="no-external">
+<div class="listing-date">
+Mar 19, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1486742400000" data-listing-file-modified-sort="1710897649714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
+<div class="thumbnail">
+<p><a href="./life/enjoy-myself/index.html" class="no-external"></a></p><a href="./life/enjoy-myself/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./life/enjoy-myself/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/enjoy-myself/index.html" class="no-external">乐在其中</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/enjoy-myself/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/enjoy-myself/index.html" class="no-external">昨晚看《The Universe in Zero Words: The Story of Mathematics as Told through Equations》这本书看到凌晨。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./life/enjoy-myself/index.html" class="no-external">
+<div class="listing-date">
+Feb 11, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1465920000000" data-listing-file-modified-sort="1710897649714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="./life/salute-to-past/index.html" class="no-external"></a></p><a href="./life/salute-to-past/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./life/salute-to-past/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/salute-to-past/index.html" class="no-external">向过去的时光致敬</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/salute-to-past/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/salute-to-past/index.html" class="no-external">好久没有写博客了，今天给博客换了个皮肤，所以顺便来说几句。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./life/salute-to-past/index.html" class="no-external">
+<div class="listing-date">
+Jun 15, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1380297600000" data-listing-file-modified-sort="1710897649716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="./life/yangmei-wine/index.html" class="no-external"></a></p><a href="./life/yangmei-wine/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./life/yangmei-wine/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/yangmei-wine/index.html" class="no-external">印象青春</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/yangmei-wine/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/yangmei-wine/index.html" class="no-external">少年打马江湖行</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./life/yangmei-wine/index.html" class="no-external">
+<div class="listing-date">
+Sep 28, 2013
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1340208000000" data-listing-file-modified-sort="1710897649714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="./life/phd-talk/index.html" class="no-external"></a></p><a href="./life/phd-talk/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./life/phd-talk/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/phd-talk/index.html" class="no-external">毕业感言（被枪毙版）</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/phd-talk/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/phd-talk/index.html" class="no-external">各位老师、各位同学:</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./life/phd-talk/index.html" class="no-external">
+<div class="listing-date">
+Jun 21, 2012
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1285776000000" data-listing-file-modified-sort="1710897649715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="thumbnail">
+<p><a href="./life/water-moon/index.html" class="no-external"></a></p><a href="./life/water-moon/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./life/water-moon/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/water-moon/index.html" class="no-external">流水今日 明月他朝</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/water-moon/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/water-moon/index.html" class="no-external">成语有庖丁解牛。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./life/water-moon/index.html" class="no-external">
+<div class="listing-date">
+Sep 30, 2010
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1283356800000" data-listing-file-modified-sort="1710897649714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="thumbnail">
+<p><a href="./life/school-start/index.html" class="no-external"></a></p><a href="./life/school-start/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./life/school-start/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/school-start/index.html" class="no-external">又开学了</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/school-start/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/school-start/index.html" class="no-external">由于我经常发现自己所想的是错的，所以我已很少能断定什么，不过我确信一点，就是，我是爱这个世界的。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./life/school-start/index.html" class="no-external">
+<div class="listing-date">
+Sep 2, 2010
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1249056000000" data-listing-file-modified-sort="1710898427030" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
+<div class="thumbnail">
+<p><a href="./life/yangkang-2/index.html" class="no-external"></a></p><a href="./life/yangkang-2/index.html" class="no-external">
+<p><img src="https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/y25.png" class="thumbnail-image"></p>
+</a><p><a href="./life/yangkang-2/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/yangkang-2/index.html" class="no-external">杨康三部曲（二）：青龙镇记事</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/yangkang-2/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/yangkang-2/index.html" class="no-external">滚滚长江，漱口水。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./life/yangkang-2/index.html" class="no-external">
+<div class="listing-date">
+Aug 1, 2009
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1239379200000" data-listing-file-modified-sort="1710897649715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="thumbnail">
+<p><a href="./life/subway-9/index.html" class="no-external"></a></p><a href="./life/subway-9/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./life/subway-9/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/subway-9/index.html" class="no-external">我那魂牵梦绕的九号线</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/subway-9/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/subway-9/index.html" class="no-external">传说爱的表现之一就是为之辗转反侧，夜不能寐。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./life/subway-9/index.html" class="no-external">
+<div class="listing-date">
+Apr 11, 2009
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1229616000000" data-listing-file-modified-sort="1710916074568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
+<div class="thumbnail">
+<p><a href="./life/yangkang-1/index.html" class="no-external"></a></p><a href="./life/yangkang-1/index.html" class="no-external">
+<p><img src="https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/y16.jpg" class="thumbnail-image"></p>
+</a><p><a href="./life/yangkang-1/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/yangkang-1/index.html" class="no-external">杨康三部曲（一）：中国武士隐默的历史</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/yangkang-1/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/yangkang-1/index.html" class="no-external">当杨过躺在桃花岛百无聊奈的背心法口诀的时候，他是不会想到很多年前他老子杨康，也曾心神不宁的坐在学堂里听老先生讲学。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./life/yangkang-1/index.html" class="no-external">
+<div class="listing-date">
+Dec 19, 2008
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1206288000000" data-listing-file-modified-sort="1710897649714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="./life/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html" class="no-external"></a></p><a href="./life/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html" class="no-external">
+<p><img src="https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/leeland.jpg" class="thumbnail-image"></p>
+</a><p><a href="./life/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./life/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html" class="no-external">It Is Sheer Good Fortune To Miss Somebody Long Before They Leave You</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./life/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./life/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html" class="no-external">上周五晚上照例听老师神侃股市。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./life/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html" class="no-external">
+<div class="listing-date">
+Mar 24, 2008
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -164,6 +506,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
