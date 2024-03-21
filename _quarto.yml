@@ -13,8 +13,8 @@ website:
   page-footer:
     # left: |
     #   Powered By
-    #   [![](https://www.rstudio.com/assets/img/posit-logo-fullcolor-TM.svg){fig-alt="Posit" width=55px}](https://posit.co)
-    left: ↑ [![](https://www.rstudio.com/assets/img/posit-logo-fullcolor-TM.svg){fig-alt="Posit" width=55px}](https://posit.co)
+    #   [![](https://www.rstudio.com/assets/img/posit-logo-fullcolor-TM.svg){fig-alt="Posit" width=65px}](https://posit.co)
+    left: ↑ [![](https://www.rstudio.com/assets/img/posit-logo-fullcolor-TM.svg){fig-alt="Posit" width=65px}](https://posit.co)
     center: 
       - text: "邱飞 &copy; 2008-2024"
       - text: "浙ICP备 2024072710号-1"
