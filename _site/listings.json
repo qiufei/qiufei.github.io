@@ -1,0 +1,32 @@
+[
+  {
+    "listing": "/life.html",
+    "items": [
+      "/life/post-with-code/index.html",
+      "/life/enjoy-myself/index.html",
+      "/life/salute-to-past/index.html",
+      "/life/yangmei-wine/index.html",
+      "/life/phd-talk/index.html",
+      "/life/water-moon/index.html",
+      "/life/school-start/index.html",
+      "/life/yangkang-2/index.html",
+      "/life/subway-9/index.html",
+      "/life/yangkang-1/index.html",
+      "/life/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html"
+    ]
+  },
+  {
+    "listing": "/invest.html",
+    "items": [
+      "/invest/try1/index.html",
+      "/invest/try2/index.html"
+    ]
+  },
+  {
+    "listing": "/data.html",
+    "items": [
+      "/data/try1/index.html",
+      "/data/try2/index.html"
+    ]
+  }
+]
