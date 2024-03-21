@@ -16,15 +16,15 @@
     ]
   },
   {
-    "listing": "/data.html",
-    "items": [
-      "/data/post-with-code/index.html"
-    ]
-  },
-  {
     "listing": "/invest.html",
     "items": [
       "/invest/post-with-code/index.html"
+    ]
+  },
+  {
+    "listing": "/data.html",
+    "items": [
+      "/data/post-with-code/index.html"
     ]
   }
 ]
