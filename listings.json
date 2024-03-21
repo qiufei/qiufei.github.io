@@ -18,15 +18,13 @@
   {
     "listing": "/invest.html",
     "items": [
-      "/invest/try1/index.html",
-      "/invest/try2/index.html"
+      "/invest/post-with-code/index.html"
     ]
   },
   {
     "listing": "/data.html",
     "items": [
-      "/data/try1/index.html",
-      "/data/try2/index.html"
+      "/data/post-with-code/index.html"
     ]
   }
 ]
