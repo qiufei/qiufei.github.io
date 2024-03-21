@@ -4,12 +4,12 @@ image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/profile.jpg
 about:
   template: jolla
   links:
-    - icon: fab fa-weibo
-      text: 微博
-      href: https://weibo.com/u/1651226607
     - icon: envelope
       text: Email
       href: mailto:hfutqiufei@163.com
+    - icon: fab fa-weibo
+      text: 微博
+      href: https://weibo.com/u/1651226607
     - icon: origin:知
       text: 知乎
       href: https://www.zhihu.com/people/cionysus
