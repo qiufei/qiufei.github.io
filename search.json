@@ -74,7 +74,7 @@
     "href": "data/post-with-code/index.html",
     "title": "test 数据",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "可执行的代码。"
   },
   {
     "objectID": "data/post-with-code/index.html#python",
@@ -102,7 +102,7 @@
     "href": "invest/post-with-code/index.html",
     "title": "test 数据",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This is a post with 可执行的代码."
   },
   {
     "objectID": "invest/post-with-code/index.html#python",
