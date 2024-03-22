@@ -2,12 +2,12 @@ project:
   type: website
 
 website:
-  title: "QF"
+  title: "首页"
   navbar:
     right:
-      - life.qmd
       - data.qmd
       - invest.qmd
+      - life.qmd
       # - icon: github
       #   href: https://github.com/
   page-footer:
@@ -22,9 +22,9 @@ website:
       - text: "浙公网安备 33021202002511号"
         href: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33021202002511"
     right:
-      - icon: github 
-        href: https://github.com/qiufei/qiufei.github.io
-      - text: ←
+      - icon: envelope-at-fill
+        href: mailto:hfutqiufei@163.com
+      # - text: ←
 format:
   html:
     theme: Journal
