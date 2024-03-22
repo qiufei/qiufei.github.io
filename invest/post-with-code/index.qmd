@@ -5,7 +5,7 @@ date: "2024-03-19"
 image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/image.jpg # 这是指定整篇文章的主题图片
 ---
 
-This is a post with executable code.
+This is a post with 可执行的代码.
 
 ## python
 ```{python}
