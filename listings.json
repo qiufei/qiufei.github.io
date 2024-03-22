@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/data.html",
+    "items": [
+      "/data/post-with-code/index.html"
+    ]
+  },
+  {
+    "listing": "/invest.html",
+    "items": [
+      "/invest/post-with-code/index.html"
+    ]
+  },
+  {
     "listing": "/life.html",
     "items": [
       "/life/post-with-code/index.html",
@@ -13,18 +25,6 @@
       "/life/subway-9/index.html",
       "/life/yangkang-1/index.html",
       "/life/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html"
-    ]
-  },
-  {
-    "listing": "/invest.html",
-    "items": [
-      "/invest/post-with-code/index.html"
-    ]
-  },
-  {
-    "listing": "/data.html",
-    "items": [
-      "/data/post-with-code/index.html"
     ]
   }
 ]
