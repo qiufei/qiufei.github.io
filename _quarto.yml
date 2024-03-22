@@ -8,6 +8,8 @@ website:
       - data.qmd
       - invest.qmd
       - life.qmd
+      - text: zola
+        href: https://qiufei.site/zola
       # - icon: github
       #   href: https://github.com/
   page-footer:
