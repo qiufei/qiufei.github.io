@@ -10,6 +10,8 @@ website:
       - life.qmd
       - text: zola
         href: https://qiufei.site/zola
+      - text: R讲义
+        href: https://qiufei.site/rbook
       # - icon: github
       #   href: https://github.com/
   page-footer:
