@@ -31,7 +31,9 @@ website:
       # - text: ←
 format:
   html:
-    theme: Journal
+    theme:
+     light: journal
+     dark: cyborg
     css: styles.css
 
 execute:
