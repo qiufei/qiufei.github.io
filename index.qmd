@@ -1,6 +1,6 @@
 ---
 title: "糖不卷"
-image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/profile.jpg
+image: profile.jpg
 about:
   template: jolla
   links:
