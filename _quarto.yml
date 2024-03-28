@@ -5,15 +5,10 @@ website:
   site-url: https://qiufei.site
   # 设置网站图标
   favicon: profile.jpg
-  # title: "首页"
+  # back-to-top-navigation: true
+  # bread-crumbs: true
   navbar:
-    left:
-      - text: "Home"
-        href: https://qiufei.site
     right:
-      # - data.qmd
-      # - invest.qmd
-      # - life.qmd
       - text: 市场
         href: https://qiufei.site/market
       - text: 感受
