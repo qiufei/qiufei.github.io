@@ -5,16 +5,28 @@ website:
   site-url: https://qiufei.site
   # 设置网站图标
   favicon: profile.jpg
-  title: "首页"
+  # title: "首页"
   navbar:
+    left:
+      - text: "Home"
+        href: https://qiufei.site
     right:
-      - data.qmd
-      - invest.qmd
-      - life.qmd
-      - text: R讲义
-        href: https://qiufei.site/rbook
+      # - data.qmd
+      # - invest.qmd
+      # - life.qmd
+      - text: 市场
+        href: https://qiufei.site/market
+      - text: 感受
+        href: https://qiufei.site/mind
+      - text: 课件
+        href: https://qiufei.site/slide
+      - text: 讲义
+        href: https://qiufei.site/book
+      - text: 工具
+        href: https://qiufei.site/tool
       # - icon: github
       #   href: https://github.com/
+      - about.qmd
   page-footer:
     left: ↑ [![](https://www.rstudio.com/assets/img/posit-logo-fullcolor-TM.svg){fig-alt="Posit" width=65px}](https://posit.co)
     center: 
