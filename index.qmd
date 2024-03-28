@@ -1,5 +1,5 @@
 ---
-title: "糖不卷"
+title: 糖不卷
 image: profile.jpg
 about:
   template: jolla

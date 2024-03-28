@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "简介"
 image: profile.jpg
 about:
   template: jolla
@@ -20,7 +20,6 @@ about:
       text: Github
       href: https://github.com/qiufei
 email-obfuscation: javascript
-
 ---
 
 我是邱飞，这是我的个人网站，
