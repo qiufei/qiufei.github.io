@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -121,8 +121,19 @@ ul.task-list li input[type="checkbox"] {
 <section id="个人网站" class="level1">
 <h1>个人网站</h1>
 <p>我的个人网站, qiufei.site 。</p>
+<section id="发布步骤" class="level2">
+<h2 class="anchored" data-anchor-id="发布步骤">发布步骤</h2>
+<p>应用模板后，首先要将创建 <code>gh-pages</code> 分支</p>
+<pre class="shell"><code>git checkout --orphan gh-pages
+git reset --hard # make sure all changes are committed before running this!
+git commit --allow-empty -m "Initialising gh-pages branch"
+git push origin gh-pages</code></pre>
+<p>然后，在仓库的settings-pages中，找到默认分支设置，将默认分支设置为 <code>gh-pages</code> 分支。</p>
+<p>如果全站范围的内容结构发生可变化，要先运行</p>
+<pre class="shell"><code>quarto render</code></pre>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
