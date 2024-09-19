@@ -18,13 +18,6 @@
     "href": "readme.html",
     "title": "个人网站",
     "section": "",
-    "text": "我的个人网站, qiufei.site 。\n\n\n应用模板后，首先要将创建 gh-pages 分支\ngit checkout --orphan gh-pages\ngit reset --hard # make sure all changes are committed before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n然后，在仓库的settings-pages中，找到默认分支设置，将默认分支设置为 gh-pages 分支。\n如果全站范围的内容结构发生可变化，要先运行\nquarto render"
-  },
-  {
-    "objectID": "readme.html#发布步骤",
-    "href": "readme.html#发布步骤",
-    "title": "个人网站",
-    "section": "",
-    "text": "应用模板后，首先要将创建 gh-pages 分支\ngit checkout --orphan gh-pages\ngit reset --hard # make sure all changes are committed before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n然后，在仓库的settings-pages中，找到默认分支设置，将默认分支设置为 gh-pages 分支。\n如果全站范围的内容结构发生可变化，要先运行\nquarto render"
+    "text": "个人网站\n我的个人网站, qiufei.site。"
   }
 ]
