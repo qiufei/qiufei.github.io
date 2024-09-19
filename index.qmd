@@ -13,9 +13,9 @@ about:
     - icon: origin:知
       text: 知乎
       href: https://www.zhihu.com/people/cionysus
-    - icon: fab fa-weixin
-      text: 微信
-      href: weixin:cionysus
+    # - icon: fab fa-weixin
+    #   text: 微信
+    #   href: weixin:cionysus
     - icon: github
       text: Github
       href: https://github.com/qiufei
