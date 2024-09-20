@@ -28,7 +28,7 @@ website:
       - about.qmd
 
 metadata-files:
-  - https://github.com/qiufei/qiufei.github.io/blob/main/page-footer.yml
+  - page-footer.yml
 
 format:
   html:
