@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  site-url: https://qiufei.site
+  site-url: https://qiufei.github.io
   search: false
   # 设置网站图标
   favicon: profile.jpg
@@ -11,33 +11,25 @@ website:
   navbar:
     left:
       - text: "首页"
-        href: https://qiufei.site   
+        href: https://qiufei.github.io   
     right:
       - text: 市场
-        href: https://qiufei.site/web-market
+        href: https://qiufei.github.io/web-market
       - text: 感受
-        href: https://qiufei.site/web-mind
+        href: https://qiufei.github.io/web-mind
       - text: 课件
-        href: https://qiufei.site/web-slide
+        href: https://qiufei.github.io/web-slide
       # - text: 讲义
-      #   href: https://qiufei.site/web-book
+      #   href: https://qiufei.github.io/web-book
       - text: 工具
-        href: https://qiufei.site/web-tool
+        href: https://qiufei.github.io/web-tool
       # - icon: github
       #   href: https://github.com/
       - about.qmd
-  page-footer:
-    left: 🔋[![](https://posit.co/wp-content/themes/Posit/assets/images/posit-logo-2024.svg){fig-alt="Posit" width=65px}](https://posit.co)
-    center: 
-      - text: "邱飞 &copy; 2008-2024"
-      - text: "浙ICP备 2024072710号-1"
-        href: "https://beian.miit.gov.cn"
-      - text: "浙公网安备 33021202002511号"
-        href: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33021202002511"
-    right:
-      - icon: envelope-at-fill
-        href: mailto:hfutqiufei@163.com
-      # - text: ←
+
+metadata-files:
+  - https://github.com/qiufei/qiufei.github.io/blob/main/page-footer.yml
+
 format:
   html:
     theme:
