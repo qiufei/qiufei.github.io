@@ -1,5 +1,4 @@
 title: "简介"
-image: https://github.com/qiufei/qiufei.github.io/blob/main/profile.jpg
 about:
   template: jolla
   links:
@@ -7,7 +6,7 @@ about:
       text: Email
       href: mailto:hfutqiufei@163.com
     - icon: fab fa-weibo
-      text: 微博
+      text: 微博x
       href: https://weibo.com/u/1651226607
     - icon: origin:知
       text: 知乎
