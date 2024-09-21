@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="我是邱飞，这是我的个人网站。这里分享一些数据分析文章，还有个人的记录和资料。">
 
-<title>简介</title>
+<title>about</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">简介</span></a>
+<span class="menu-text">email-obfuscation: javascript</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -109,46 +109,22 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="https://raw.githubusercontent.com/qiufei/qiufei.github.io/refs/heads/main/profile.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">简介</h1>
-</div>
-<div>
-  <div class="description">
-    <p>我是邱飞，这是我的个人网站。</p>
-    <p>这里分享一些数据分析文章，还有个人的记录和资料。</p>
-  </div>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="mailto:hfutqiufei@163.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://weibo.com/u/1651226607" class="about-link" rel="" target="">
-    <i class="bi bi-fab fa-weibo"></i>
-     <span class="about-link-text">微博x</span>
-  </a>
-  <a href="https://www.zhihu.com/people/cionysus" class="about-link" rel="" target="">
-    <i class="bi bi-origin:知"></i>
-     <span class="about-link-text">知乎</span>
-  </a>
-  <a href="https://github.com/qiufei" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+
+
+<hr>
+<p>title: “简介” image: profile.jpg about: template: jolla links: - icon: envelope text: Email href: mailto:hfutqiufei@163.com - icon: fab fa-weibo text: 微博x href: https://weibo.com/u/1651226607 - icon: origin:知 text: 知乎 href: https://www.zhihu.com/people/cionysus # - icon: fab fa-weixin # text: 微信 # href: weixin:cionysus - icon: github text: Github href: https://github.com/qiufei</p>
+<section id="email-obfuscation-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="email-obfuscation-javascript">email-obfuscation: javascript</h2>
+<p>我是邱飞，这是我的个人网站，</p>
+<p>用于分享一些数据分析文章，还有个人的记录和资料。</p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -313,6 +289,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
