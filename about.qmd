@@ -26,4 +26,4 @@ metadata-files:
 
 
 
-{{< include https://raw.githubusercontent.com/qiufei/qiufei.github.io/main/readme.md >}}
+{{< include main/readme.md >}}
