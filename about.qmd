@@ -22,8 +22,3 @@
 metadata-files:
   - about.yml
 ---
-
-
-
-
-{{< include main/readme.md >}}
