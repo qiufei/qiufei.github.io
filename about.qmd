@@ -20,5 +20,5 @@
 #       href: https://github.com/qiufei
 # email-obfuscation: javascript
 metadata-files:
-  - about.yml
+  - https://raw.githubusercontent.com/qiufei/qiufei.github.io/refs/heads/main/about.yml
 ---
