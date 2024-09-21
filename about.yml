@@ -1,5 +1,6 @@
 
 title: "简介"
+subtitle: "我是邱飞，这是我的个人网站，用于分享一些数据分析文章，还有个人的记录和资料。"
 image: https://raw.githubusercontent.com/qiufei/qiufei.github.io/refs/heads/main/profile.jpg
 
 about:
@@ -20,6 +21,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com/qiufei
-    - text: 我是邱飞，这是我的个人网站，用于分享一些数据分析文章，还有个人的记录和资料。
+
 email-obfuscation: javascript
   
