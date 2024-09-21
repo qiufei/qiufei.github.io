@@ -1,6 +1,5 @@
 ---
 # title: "简介"
-image: https://github.com/qiufei/qiufei.github.io/blob/main/profile.jpg
 # about:
 #   template: jolla
 #   links:
