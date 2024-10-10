@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "",
+    "section": "",
+    "text": "我的个人网站，\n用于分享一些数据分析文章，还有个人的记录和资料。"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "简介",
@@ -12,12 +19,5 @@
     "title": "糖不卷",
     "section": "",
     "text": "我是邱飞，这是我的个人网站。"
-  },
-  {
-    "objectID": "readme.html",
-    "href": "readme.html",
-    "title": "",
-    "section": "",
-    "text": "我的个人网站，\n用于分享一些数据分析文章，还有个人的记录和资料。"
   }
 ]
