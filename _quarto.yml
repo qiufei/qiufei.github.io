@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  site-url: https://qiufei.github.io
+  site-url: https://qiufei.site
   search: false
   # 设置网站图标
   favicon: profile.jpg
@@ -11,18 +11,18 @@ website:
   navbar:
     left:
       - text: "首页"
-        href: https://qiufei.github.io   
+        href: https://qiufei.site   
     right:
       - text: 市场
-        href: https://qiufei.github.io/web-market
+        href: https://qiufei.site/web-market
       - text: 感受
-        href: https://qiufei.github.io/web-mind
+        href: https://qiufei.site/web-mind
       - text: 课件
-        href: https://qiufei.github.io/web-slide
+        href: https://qiufei.site/web-slide
       # - text: 讲义
-      #   href: https://qiufei.github.io/web-book
+      #   href: https://qiufei.site/web-book
       - text: 工具
-        href: https://qiufei.github.io/web-tool
+        href: https://qiufei.site/web-tool
       # - icon: github
       #   href: https://github.com/
       - about.qmd
