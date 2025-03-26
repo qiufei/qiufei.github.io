@@ -1,0 +1,17 @@
+{
+  "hash": "ec8561ccee86674d711d0e607abb42d5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"test 数据\"\n#author: \"qiufei\"\ndate: \"2024-03-19\"\nimage: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/image.jpg # 这是指定整篇文章的主题图片\n---\n\n\n可执行的代码。\n\n## python\n\n::: {.cell}\n\n```{.python .cell-code}\nprint(\"Hello, World!\")\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nHello, World!\n```\n\n\n:::\n:::\n\n\n## R 语言\n\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(\"Hello, World!\")\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"Hello, World!\"\n```\n\n\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
